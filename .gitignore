@@ -1,0 +1,22 @@
+# Arquivos gerados pelo Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.backup
+
+# Arquivo de configuração de variáveis do Terraform
+*.tfvars
+
+# Arquivo de plano de execução gerado pelo Terraform
+terraform.plan
+
+# Outras extensões que podem ser usadas para dados sensíveis
+*.tfvars.json
+
+# Logs ou arquivos temporários
+.terraform/terraform.tfplan
+
+# Backups de arquivos
+*.bak
